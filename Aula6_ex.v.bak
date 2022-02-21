@@ -1,0 +1,19 @@
+/*
+
+Exercícios da Aula 6 - Lógica sequencial
+
+*/
+
+module Aula6_ex(
+
+	input [3:0]    D,
+	input CLK,
+	
+	output [3:0]   Q
+
+);
+
+	ex1 primeiro (D, Q, CLK);
+
+
+endmodule
